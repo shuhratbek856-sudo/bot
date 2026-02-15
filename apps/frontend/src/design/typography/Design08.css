@@ -1,0 +1,7 @@
+:root {
+  --font-typography-08: 8;
+}
+
+.design-typography-08 {
+  --token: var(--font-typography-08);
+}

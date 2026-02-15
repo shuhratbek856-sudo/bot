@@ -1,0 +1,1 @@
+import { useProjects } from "../../hooks/useProjects"; export function ProjectTable(){const projects=useProjects(); return <div className="panel"><h2>Projects</h2><ul>{projects.map(p=><li key={p.id}>{p.name}</li>)}</ul></div>;}

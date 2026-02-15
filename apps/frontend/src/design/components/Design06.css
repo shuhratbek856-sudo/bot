@@ -1,0 +1,7 @@
+:root {
+  --component-components-06: 6;
+}
+
+.design-components-06 {
+  --token: var(--component-components-06);
+}

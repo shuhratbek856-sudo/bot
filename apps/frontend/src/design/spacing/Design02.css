@@ -1,0 +1,7 @@
+:root {
+  --space-spacing-02: 2;
+}
+
+.design-spacing-02 {
+  --token: var(--space-spacing-02);
+}

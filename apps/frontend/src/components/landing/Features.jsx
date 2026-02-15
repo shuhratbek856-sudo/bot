@@ -1,0 +1,1 @@
+export function Features(){return <section id="features" className="features"><div className="card">Prompt to app</div><div className="card">Visual dashboard</div><div className="card">One-click deploy</div></section>;}

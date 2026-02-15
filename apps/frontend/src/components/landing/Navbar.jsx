@@ -1,0 +1,1 @@
+import { Link } from "react-router-dom"; export function Navbar(){return <header className="nav"><Link to="/" className="logo">CodeStudio</Link><nav><a href="#features">Features</a><Link to="/dashboard">Dashboard</Link></nav></header>;}

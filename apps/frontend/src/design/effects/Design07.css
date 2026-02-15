@@ -1,0 +1,7 @@
+:root {
+  --effect-effects-07: 7;
+}
+
+.design-effects-07 {
+  --token: var(--effect-effects-07);
+}

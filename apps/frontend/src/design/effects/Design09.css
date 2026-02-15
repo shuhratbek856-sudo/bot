@@ -1,0 +1,7 @@
+:root {
+  --effect-effects-09: 9;
+}
+
+.design-effects-09 {
+  --token: var(--effect-effects-09);
+}
