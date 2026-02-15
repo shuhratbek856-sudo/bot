@@ -1,0 +1,7 @@
+:root {
+  --space-spacing-10: 10;
+}
+
+.design-spacing-10 {
+  --token: var(--space-spacing-10);
+}

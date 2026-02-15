@@ -1,0 +1,7 @@
+:root {
+  --space-spacing-06: 6;
+}
+
+.design-spacing-06 {
+  --token: var(--space-spacing-06);
+}

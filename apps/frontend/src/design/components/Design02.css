@@ -1,0 +1,7 @@
+:root {
+  --component-components-02: 2;
+}
+
+.design-components-02 {
+  --token: var(--component-components-02);
+}

@@ -1,0 +1,1 @@
+import { Link } from "react-router-dom"; export function Hero(){return <section className="hero"><h1>Build independently with CodeStudio</h1><p>Landing + dashboard + AI coding assistant.</p><Link to="/signin" className="btn">Start with Google</Link></section>;}

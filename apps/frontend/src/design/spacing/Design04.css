@@ -1,0 +1,7 @@
+:root {
+  --space-spacing-04: 4;
+}
+
+.design-spacing-04 {
+  --token: var(--space-spacing-04);
+}

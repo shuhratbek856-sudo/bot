@@ -1,0 +1,7 @@
+:root {
+  --font-typography-07: 7;
+}
+
+.design-typography-07 {
+  --token: var(--font-typography-07);
+}

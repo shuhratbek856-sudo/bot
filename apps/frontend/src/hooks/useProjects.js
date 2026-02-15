@@ -1,0 +1,1 @@
+import { useEffect,useState } from "react"; import { getProjects } from "../lib/api"; export function useProjects(){const [data,setData]=useState([]); useEffect(()=>{getProjects().then(d=>setData(d.projects||[]));},[]); return data;}

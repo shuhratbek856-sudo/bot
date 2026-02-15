@@ -1,0 +1,16 @@
+{
+  "name": "codestudio-platform",
+  "private": true,
+  "version": "1.0.0",
+  "workspaces": ["apps/*", "packages/*"],
+  "scripts": {
+    "dev": "concurrently \"npm run dev -w @codestudio/backend\" \"npm run dev -w @codestudio/frontend\"",
+    "dev:frontend": "npm run dev -w @codestudio/frontend",
+    "dev:backend": "npm run dev -w @codestudio/backend",
+    "lint": "npm run lint -w @codestudio/frontend && npm run lint -w @codestudio/backend",
+    "build": "npm run build -w @codestudio/frontend && npm run build -w @codestudio/backend"
+  },
+  "devDependencies": {
+    "concurrently": "^9.0.1"
+  }
+}

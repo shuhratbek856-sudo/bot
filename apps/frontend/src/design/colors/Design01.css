@@ -1,0 +1,7 @@
+:root {
+  --color-colors-01: 1;
+}
+
+.design-colors-01 {
+  --token: var(--color-colors-01);
+}

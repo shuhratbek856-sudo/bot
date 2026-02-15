@@ -1,0 +1,7 @@
+:root {
+  --space-spacing-09: 9;
+}
+
+.design-spacing-09 {
+  --token: var(--space-spacing-09);
+}
